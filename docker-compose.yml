@@ -1,0 +1,10 @@
+services:
+  research:
+    build: .
+    volumes:
+      - ./benchmarks:/work/benchmarks
+      - ./figures:/work/figures
+    environment:
+      - PYTHONPATH=/work/src
+      - MPLBACKEND=Agg
+    command: bash -c "pytest -q && python benchmarks/run_all.py && python experiments/exp01_diode_dc.py && python experiments/exp02_rectifiers_ac.py && python experiments/exp03_bjt_switch.py && python experiments/exp04_bjt_amplifier.py && python experiments/exp05_thyristor_dimmer.py"

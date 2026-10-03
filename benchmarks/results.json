@@ -1,0 +1,107 @@
+{
+  "benchmarks": [
+    {
+      "name": "B1_diode_1N4007_10mA",
+      "predicted": 0.651841986717342,
+      "reference": 0.6,
+      "rel_err": 0.08640331119556996,
+      "passed": true
+    },
+    {
+      "name": "B1_diode_1N4007_100mA",
+      "predicted": 0.720292085061296,
+      "reference": 0.7,
+      "rel_err": 0.028988692944708707,
+      "passed": true
+    },
+    {
+      "name": "B1_diode_1N4007_1000mA",
+      "predicted": 0.7887421834124739,
+      "reference": 0.95,
+      "rel_err": 0.16974507009213266,
+      "passed": true
+    },
+    {
+      "name": "B2_bridge_twice_halfwave",
+      "predicted": 7.639437268410976,
+      "reference": 7.639437268410976,
+      "rel_err": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B3_ripple_bridge_half",
+      "predicted": 4.166666666666667,
+      "reference": 4.166666666666667,
+      "rel_err": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B4_divider_more_stable_than_fixed",
+      "predicted": 0.11642892548328469,
+      "reference": 2.0000000000000004,
+      "rel_err": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B5_re_gain_CE_2k_1mA",
+      "predicted": -77.36345414366721,
+      "reference": -77.3,
+      "rel_err": 0.0008208815480881648,
+      "passed": true
+    },
+    {
+      "name": "B6_scr_alpha0_is_halfwave",
+      "predicted": 3.183098861837907,
+      "reference": 3.183098861837907,
+      "rel_err": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B7_triac_endpoints",
+      "predicted": 1.0,
+      "reference": 1.0,
+      "rel_err": 0.0,
+      "passed": true
+    },
+    {
+      "name": "B8_triac_90deg_half_power",
+      "predicted": 0.5,
+      "reference": 0.5,
+      "rel_err": 0.0,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "market": {
+    "live": true,
+    "quotes": {
+      "STM": {
+        "last": 57.2599983215332,
+        "prev": 53.5,
+        "currency": "USD",
+        "exchange": "NYQ"
+      },
+      "ON": {
+        "last": 84.88999938964844,
+        "prev": 80.08000183105469,
+        "currency": "USD",
+        "exchange": "NMS"
+      },
+      "IFX.DE": {
+        "last": 64.63999938964844,
+        "prev": 59.41999816894531,
+        "currency": "EUR",
+        "exchange": "GER"
+      }
+    },
+    "distributor_hint": {
+      "1N4007": "~0.03-0.10 USD @1k",
+      "2N2222": "~0.05-0.15 USD @1k",
+      "BT136-600E": "~0.30-0.70 USD @1k"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+part,condition,Vf_V,I_A,source
+1N4007,typical 25C,0.60,0.01,"Vishay 1N4007 datasheet табл. max 1.0V@1A; typical curve ~0.6V@10mA"
+1N4007,typical 25C,0.70,0.10,"same curve"
+1N4007,typical 25C,0.95,1.00,"same curve; max spec 1.1V"
+2N2222,hFE active,0.30,0.15,"ON Semi P2N2222A: VceSat max 0.3V@150mA; hFE 100-300"
+BT136,Vtm,1.50,2.00,"WeEn/NXP BT136-600E: Vtm max 1.7V@2A; Igt<=50mA; Ih 10-50mA"
